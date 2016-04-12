@@ -23,7 +23,8 @@ Ember addon snippets for [VS Code](http://code.visualstudio.com/).
             "body": "console.log $1"
         },
         ...
-    }
+    },
+    ...
 }
 ```
 
