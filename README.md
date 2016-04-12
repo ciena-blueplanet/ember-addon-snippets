@@ -7,21 +7,28 @@ Ember addon snippets for [Atom](http://atom.io/) and [VS Code](http://code.visua
 
 ### Adding Snippets to your ember addons
 
-Simply add them to your project's `package.json` using the following format which is compatible with both [Atom](http://atom.io/) And [VS Code](http://code.visualstudio.com/).
+1. Create a `snippets` folder at the root of your ember project.
+2. Create a `snippets.json` file inside the `snippets` folder.
+3. Fill `snippets.json` with snippets. Your file should have the following format.
 
 ```json
-"atomSnippets": {
-  ".source.hbs": {
-    "ember-frost-button": {
-      "prefix": "frost-button",
-      "body": "{{frost-button}} $1"
-    }
-  },
-  ".source.js": {
-    "Console log": {
-      "prefix": "log",
-      "body": "console.log $1"
-    }
-  }
+{
+    ".source.hbs": {
+        "ember-frost-button": {
+            "prefix": "frost-button",
+            "body": "{{frost-button}} $1"
+        },
+        ...
+    },
+    ".source.js": {
+        "Console log": {
+            "prefix": "log",
+            "body": "console.log $1"
+        },
+        ...
+    },
+    ...
 }
 ```
+
+
