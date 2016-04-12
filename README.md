@@ -10,6 +10,7 @@ Ember addon snippets for [Atom](http://atom.io/) and [VS Code](http://code.visua
 ## ember-addon-snippets-vsc
 * View vsc extension [source](https://github.com/ciena-blueplanet/ember-addon-snippets-vsc).
 * [Installation](https://github.com/ciena-blueplanet/ember-addon-snippets-vsc#consuming-ember-addon-snippets-in-vsc)
+* View extension on [vs marketplace](https://marketplace.visualstudio.com/items?itemName=ciena-blueplanet.ember-addon-snippets)
 
 ### Adding snippets to your ember addons
 
